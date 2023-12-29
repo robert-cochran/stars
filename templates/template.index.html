@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Gen-Art App Title Page</title>
+    </head>
+    <body>
+        <!-- write a function that swaps out the div in window with whatever 
+                div is needed (i.e. starsdiv, boiddiv, etc...) -->
+        <h1>Gen-Art Files</h1>
+        <a href="stars.html">stars</a>
+        
+        
+    </body>
+    
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker
+                    .register("service-worker.js")
+                    .then((registration) => {
+                        console.log("Service Worker registered: ", registration);
+                    })
+                    .catch((registrationError) => {
+                        console.error("Service Worker registration failed: ", registrationError);
+                    });
+            });
+        }
+    </script>
+</html>
