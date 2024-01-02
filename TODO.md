@@ -13,14 +13,4 @@
       - solution1: using throttling to stop it?
       - solution2: calling requestAnimationFrame and limiting performance?
       - cause1: is it eating up too much memory? why does the fan start?
-- maybe other view engines/libraries
-    - pug (jade)
-    - react
-    - other template/view engines ones listed on the express generator
-- update Readme
-    - all the steps for running, 
-    - tools used to run, 
-    - why each tool was used if it diverts away from the bare minimum
-        - e.g. webpack loader used to turn html template into js-content pages 
-        - (maybe pug is used etc...)
-
+- cleanup code for template view engines/libraries (e.g. pug (jade), react)
