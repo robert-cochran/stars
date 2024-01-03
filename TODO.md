@@ -1,10 +1,7 @@
 # todo 
 - merge js/ files and js/src files
 - move styling elements in js file to css
-- add service-workers?
-- write a version for boids
-    - daniel shiffman has rudimentary example using his p5 lib but this hides
-        a lot of the code since its built into his library
+- add service-workers to speed up/allow more particles?
 - webpack
     - improve the 'code splitting' and 'output management' once enough files 
         are added
